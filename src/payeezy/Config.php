@@ -67,7 +67,7 @@ class Config
      * @auther: Jay
      * @Date: 2021/3/26 0026
      * @Time: 15:14
-     * @return PayeezyConfig
+     * @return Config
      */
       public function setApiKey(string $apiKey):self
       {
@@ -96,7 +96,7 @@ class Config
      * @auther: Jay
      * @Date: 2021/3/26 0026
      * @Time: 15:14
-     * @return PayeezyConfig
+     * @return Config
      */
       public function setApiSecret(string $apiSecret):self
       {
@@ -126,7 +126,7 @@ class Config
      * @auther: Jay
      * @Date: 2021/3/26 0026
      * @Time: 15:13
-     * @return PayeezyConfig
+     * @return Config
      */
       public function setMerchantToken(string $merchantToken):self
       {
@@ -157,7 +157,7 @@ class Config
      * @auther: Jay
      * @Date: 2021/3/26 0026
      * @Time: 15:13
-     * @return PayeezyConfig
+     * @return Config
      */
       public function setUrl(string $url):self
       {
