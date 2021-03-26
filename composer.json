@@ -15,6 +15,7 @@
         "ext-openssl": "*",
         "ext-json": "*"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
           "JayPayeezy\\": "src/payeezy/"
