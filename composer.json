@@ -1,0 +1,23 @@
+{
+    "name": "jayli/payeezy",
+    "description": "payeeze",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jay.li",
+            "email": "risesli@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "JayPayeezy\\": "src/payeezy/"
+        }
+      }
+}
